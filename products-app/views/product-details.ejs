@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Products App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
+  </head>
+  <body>
+    <h1 class="text-center"><%= title %></h1>
+    <div class="container">
+        <div class="border w-75 mx-auto rounded bg-warning p-3">
+            <h3 class="text-center"><%= product.name%></h3>
+        </div>
+        <div class="card bg-warning w-50 mx-auto mt-3">
+            <h4 class="text-center">Description: <br><br><%= product.description%></h4>
+        </div>
+        <div class="card bg-warning w-50 mx-auto mt-3">
+            <h4 class="text-center">Price: <%= product.price%></h4>
+        </div>
+    </div>
+  </body>
+</html>
+
